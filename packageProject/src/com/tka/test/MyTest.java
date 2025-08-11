@@ -1,18 +1,20 @@
 package com.tka.test;
 
-import com.tka.controller.A;
-
 public class MyTest {
 
 	public static void main(String[] args) {
-	
-		A var = new A();
-		System.out.println(var.p);
 		
-		var.p = 30;
-		System.out.println(var.p);
+		A var = new A();
+		com.tka.controller.A var1 = new com.tka.controller.A();
+		
+		
+		System.out.println(var1.p);
+		
+		var1.p = 30;
+		System.out.println(var1.p);
 		
 		var.m1();
+		var1.m1();
 
 	}
 
